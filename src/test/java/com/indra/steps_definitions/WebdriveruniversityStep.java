@@ -31,7 +31,7 @@ public class WebdriveruniversityStep {
 
     @When("^ingresa la fecha$")
     public void ingresaLaFecha(List<WebdriveruniversityModels> webdriveruniversityModels) {
-        webdriveruniversityActions.seleccionarFecha(webdriveruniversityModels.get(0));
+        webdriveruniversityActions.seleccionarFechaEnElCalendario(webdriveruniversityModels.get(0));
 
     }
 

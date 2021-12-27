@@ -10,5 +10,5 @@ Given el usuario esta en la seccion inicio de la pagina
 When despliega el calendario
 And ingresa la fecha
 |anio   |dia    |mes     |
-|2045   |14     |May     |
+|2019   |2     |Aug     |
 Then deberia poder ver los datos ingresados

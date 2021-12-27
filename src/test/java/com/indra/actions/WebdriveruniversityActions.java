@@ -4,8 +4,6 @@ import com.indra.models.WebdriveruniversityModels;
 import com.indra.pages.WebdriveruniversityPage;
 import net.serenitybdd.core.pages.WebElementFacade;
 import net.thucydides.core.annotations.DefaultUrl;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 
 @DefaultUrl("https://www.vivaair.com/")
@@ -21,39 +19,70 @@ public class WebdriveruniversityActions extends WebdriveruniversityPage {
         //System.out.println("+++++++++++++++++++++++++++++++++++++++++++++++"+getAnioEnCalendario().getText());
     }
 
-    public void seleccionarFecha(WebdriveruniversityModels webdriveruniversityModels){
+    public void seleccionarFechaEnElCalendario(WebdriveruniversityModels webdriveruniversityModels){
+        seleccionarAnioDelCalendario(webdriveruniversityModels);
+        seleccionarMesyDiaDelCalendario(webdriveruniversityModels);
+    }
+
+    public void seleccionarAnioDelCalendario(WebdriveruniversityModels webdriveruniversityModels){
         getAnioEnCalendario().click();
-        System.out.println("++++++++++++++++++++anio del calendario +++++++++++++++++++++++++++"+getAnioEnELCalendarioOficial().getText());
+        //System.out.println("+++++++anio del calendario +++++++++++++++"+getAnioEnELCalendarioOficial().getText());
 
         String anioseleccionar = webdriveruniversityModels.getAnio();
-        String mesSeleccionar = webdriveruniversityModels.getMes();
-        String diaSeleccionar = webdriveruniversityModels.getDia();
-        System.out.println("año es "+anioseleccionar+ "dia es "+diaSeleccionar+ "mes es "+mesSeleccionar);
+
+        System.out.println("año es "+anioseleccionar);
 
 
-        String anioEnElCalendario = getAnioEnELCalendarioOficial().getText();
+       String anioEnElCalendario = getAnioEnELCalendarioOficial().getText();
 
         for(int j=0; j<300;j++){
-
             getBotonSiguienteCalendario().waitUntilVisible();
             getBotonPrevioCalendario().waitUntilPresent();
+
             anioEnElCalendario=getAnioEnELCalendarioOficial().getText();
 
+            int anioseleccionarConvertido = Integer.parseInt(anioseleccionar);//feature
+            int anioEnElCalendarioConvertido = Integer.parseInt(anioEnElCalendario);//datepicker
 
-            int anioseleccionarConvertido = Integer.parseInt(anioseleccionar);
-            int anioEnElCalendarioConvertido = Integer.parseInt(anioEnElCalendario);
-
-
-            if((anioseleccionarConvertido>anioEnElCalendarioConvertido) && (anioseleccionar.equals(anioEnElCalendario)))  {
-                //(anioseleccionar.equals(anioEnElCalendario)
+            if(anioseleccionarConvertido<anioEnElCalendarioConvertido){
+               getBotonPrevioCalendario().click();
+            }
+            else if (anioseleccionarConvertido>anioEnElCalendarioConvertido){
+               getBotonSiguienteCalendario().click();
+            }
+            if(anioseleccionarConvertido==anioEnElCalendarioConvertido){
                 break;
             }
-            getBotonSiguienteCalendario().click();
         }
+    }
 
+    public void seleccionarMesyDiaDelCalendario(WebdriveruniversityModels webdriveruniversityModels){
+        String mesSeleccionar = webdriveruniversityModels.getMes();
+        String diaSeleccionar = webdriveruniversityModels.getDia();
+
+        System.out.println(getListaDeMesesEnCalendario().size());
+
+
+        for(int i = 0; i<=getListaDeMesesEnCalendario().size(); i ++){
+            String mesEnCalendario = getListaDeMesesEnCalendario().get(i).getText();
+            if(mesEnCalendario.equals(mesSeleccionar)){
+                getListaDeMesesEnCalendario().get(i).click();
+                break;
+            }
+        }
+        getDatePickerDays().waitUntilPresent();
+        for(WebElementFacade dia : getListadeDias()){
+            if(diaSeleccionar.equals(dia.getText())){
+                dia.click();
+                break;
+            }
+        }
+        System.out.println(getValorCajaFecha().getText());
+        getDatePickerDays().waitUntilPresent();
     }
 
 }
+
 
 
 

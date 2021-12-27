@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.indra.runners.WebdriveruniversityRunners" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="22LAP5CD1346NJJ" time="0.0">
+<testsuite name="com.indra.runners.WebdriveruniversityRunners" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="22LAP5CD1195R94" time="0.0">
   <properties/>
-  <system-out><![CDATA[14:57:23.692 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM D:\BACKUP RETO VIVA AIR\MANUEL RETO VIVA\serenity.properties 
-14:57:23.734 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM D:\BACKUP RETO VIVA AIR\MANUEL RETO VIVA\serenity.properties 
-14:57:23.735 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM D:\BACKUP RETO VIVA AIR\MANUEL RETO VIVA\serenity.properties 
-14:57:23.743 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.driver=chrome
-14:57:23.743 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - chrome.capabilities.incognito=true
-14:57:23.744 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.chrome.driver=src/test/resources/drivers/chromedriver.exe
-14:57:23.744 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - chrome.capabilities.acceptSslCerts=true
-14:57:23.744 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.console.colors=true
-14:57:23.744 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.base.url=https://webdriveruniversity.com/Datepicker/
-14:57:23.744 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.project.name=Dojo Serenity / Cucumber
-14:57:23.744 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.wait.for.timeout=6000
-14:57:23.744 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.use.unique.browser=true
-14:57:23.744 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.timeouts.implicitlywait=10000
-14:57:23.744 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.browser.maximized=true
-14:57:23.982 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM D:\BACKUP RETO VIVA AIR\MANUEL RETO VIVA\serenity.properties 
-14:57:23.990 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM D:\BACKUP RETO VIVA AIR\MANUEL RETO VIVA\serenity.properties 
-14:57:23.991 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM D:\BACKUP RETO VIVA AIR\MANUEL RETO VIVA\serenity.properties 
-14:57:23.992 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.driver=chrome
-14:57:23.992 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - chrome.capabilities.incognito=true
-14:57:23.992 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.chrome.driver=src/test/resources/drivers/chromedriver.exe
-14:57:23.992 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - chrome.capabilities.acceptSslCerts=true
-14:57:23.993 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.console.colors=true
-14:57:23.993 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.base.url=https://webdriveruniversity.com/Datepicker/
-14:57:23.993 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.project.name=Dojo Serenity / Cucumber
-14:57:23.994 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.wait.for.timeout=6000
-14:57:23.994 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.use.unique.browser=true
-14:57:23.994 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.timeouts.implicitlywait=10000
-14:57:23.994 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.browser.maximized=true
-14:57:23.998 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[96m
+  <system-out><![CDATA[16:42:55.263 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Repo\para-orlando\serenity.properties 
+16:42:55.424 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Repo\para-orlando\serenity.properties 
+16:42:55.426 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Repo\para-orlando\serenity.properties 
+16:42:55.455 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.driver=chrome
+16:42:55.456 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - chrome.capabilities.incognito=true
+16:42:55.456 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.chrome.driver=src/test/resources/drivers/chromedriver.exe
+16:42:55.456 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - chrome.capabilities.acceptSslCerts=true
+16:42:55.456 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.console.colors=true
+16:42:55.457 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.base.url=https://webdriveruniversity.com/Datepicker/
+16:42:55.458 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.project.name=Dojo Serenity / Cucumber
+16:42:55.459 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.wait.for.timeout=6000
+16:42:55.459 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.use.unique.browser=true
+16:42:55.459 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.timeouts.implicitlywait=10000
+16:42:55.460 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.browser.maximized=true
+16:42:56.330 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Repo\para-orlando\serenity.properties 
+16:42:56.351 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Repo\para-orlando\serenity.properties 
+16:42:56.353 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Repo\para-orlando\serenity.properties 
+16:42:56.356 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.driver=chrome
+16:42:56.358 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - chrome.capabilities.incognito=true
+16:42:56.358 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.chrome.driver=src/test/resources/drivers/chromedriver.exe
+16:42:56.358 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - chrome.capabilities.acceptSslCerts=true
+16:42:56.359 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.console.colors=true
+16:42:56.359 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.base.url=https://webdriveruniversity.com/Datepicker/
+16:42:56.359 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.project.name=Dojo Serenity / Cucumber
+16:42:56.359 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.wait.for.timeout=6000
+16:42:56.360 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.use.unique.browser=true
+16:42:56.360 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.timeouts.implicitlywait=10000
+16:42:56.361 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.browser.maximized=true
+16:42:56.387 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[96m
 
 -------------------------------------------------------------------------------------
      _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
@@ -46,9 +46,9 @@
  Learn Serenity BDD online at http://serenity-dojo.com                               
 -------------------------------------------------------------------------------------
 ?[0m
-14:57:24.003 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@fac2f461
-14:57:24.004 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - Test Suite Started: Seleccionar una fecha en el calendario
-14:57:24.045 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+16:42:56.400 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@fac2f461
+16:42:56.406 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - Test Suite Started: Seleccionar una fecha en el calendario
+16:42:56.546 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
 |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
@@ -58,62 +58,142 @@
 
 TEST STARTED: deberia seleccionar la fecha deseada
 -------------------------------------------------------------------(seleccionar-una-fecha-en-el-calendario;deberia-seleccionar-la-fecha-deseada)
-14:57:24.109 [Test worker] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.6 class cucumber.runtime.model.FeatureLoader try Cucumber 4.2.0 
-14:57:24.110 [Test worker] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.0 class cucumber.runtime.model.FeatureLoader try Cucumber 2.x.x 
-14:57:57.088 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
-14:57:57.145 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
-14:57:57.158 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 1 test outcomes using: net.thucydides.core.reports.json.JSONTestOutcomeReporter@5ab2adb6
-14:57:57.161 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Seleccionar una fecha en el calendario:deberia seleccionar la fecha deseada
-14:57:57.161 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@5ab2adb6: Generating report for test outcome: Seleccionar una fecha en el calendario:deberia seleccionar la fecha deseada
-14:57:57.166 [pool-1-thread-1] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for deberia seleccionar la fecha deseada to file D:\BACKUP RETO VIVA AIR\MANUEL RETO VIVA\target\site\serenity\9f2cdf0a09267ad8f2e9dc2561d5c63c67ddfd63bb87529a86d981c6e982328c.json (using temp file D:\BACKUP RETO VIVA AIR\MANUEL RETO VIVA\target\site\serenity\9f2cdf0a09267ad8f2e9dc2561d5c63c67ddfd63bb87529a86d981c6e982328c.json4e3e7e04-573d-485c-aa40-33cbfc8d6bb8)
-14:57:57.216 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Seleccionar una fecha en el calendario:deberia seleccionar la fecha deseada done
-14:57:57.217 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
-14:57:57.217 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 59 ms
-14:57:57.217 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 1 test outcomes using: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@3be5d885
-14:57:57.217 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Seleccionar una fecha en el calendario:deberia seleccionar la fecha deseada
-14:57:57.217 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@3be5d885: Generating report for test outcome: Seleccionar una fecha en el calendario:deberia seleccionar la fecha deseada
-14:57:57.218 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATE TEST OUTCOME REPORT FOR deberia seleccionar la fecha deseada in 9f2cdf0a09267ad8f2e9dc2561d5c63c67ddfd63bb87529a86d981c6e982328c
-14:57:57.248 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.6 class cucumber.runtime.model.FeatureLoader try Cucumber 4.2.0 
-14:57:57.249 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.0 class cucumber.runtime.model.FeatureLoader try Cucumber 2.x.x 
-14:57:57.251 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.RequirementsTagProvider -  found:[Requirement{name='Vivaair', type='capability' parent = 'null', cardNumber='null'}]
-14:57:57.309 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome deberia seleccionar la fecha deseada-[]: Optional[Requirement{name='Seleccionar una fecha en el calendario', type='feature' parent = 'Vivaair', cardNumber='null'}]
-14:57:57.311 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome deberia seleccionar la fecha deseada-[]: Optional[Requirement{name='Seleccionar una fecha en el calendario', type='feature' parent = 'Vivaair', cardNumber='null'}]
-14:57:57.346 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome deberia seleccionar la fecha deseada-[]: Optional[Requirement{name='Seleccionar una fecha en el calendario', type='feature' parent = 'Vivaair', cardNumber='null'}]
-14:57:57.347 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome deberia seleccionar la fecha deseada-[]: Optional[Requirement{name='Seleccionar una fecha en el calendario', type='feature' parent = 'Vivaair', cardNumber='null'}]
-14:57:57.418 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in 9f2cdf0a09267ad8f2e9dc2561d5c63c67ddfd63bb87529a86d981c6e982328c_screenshots.html
-14:57:57.768 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report 9f2cdf0a09267ad8f2e9dc2561d5c63c67ddfd63bb87529a86d981c6e982328c_screenshots.html in 350 ms
-14:57:57.769 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Seleccionar una fecha en el calendario:deberia seleccionar la fecha deseada in 9f2cdf0a09267ad8f2e9dc2561d5c63c67ddfd63bb87529a86d981c6e982328c.html in directory D:\BACKUP RETO VIVA AIR\MANUEL RETO VIVA\target\site\serenity  
-14:57:57.772 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in 9f2cdf0a09267ad8f2e9dc2561d5c63c67ddfd63bb87529a86d981c6e982328c.html
-14:57:57.889 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report 9f2cdf0a09267ad8f2e9dc2561d5c63c67ddfd63bb87529a86d981c6e982328c.html in 117 ms
-14:57:57.890 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Seleccionar una fecha en el calendario:deberia seleccionar la fecha deseada done
-14:57:57.890 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
-14:57:57.890 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 673 ms
-14:57:58.133 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Closing darkroom
-14:57:58.134 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Darkroom processing line shutting down
+16:42:56.703 [Test worker] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.6 class cucumber.runtime.model.FeatureLoader try Cucumber 4.2.0 
+16:42:56.704 [Test worker] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.0 class cucumber.runtime.model.FeatureLoader try Cucumber 2.x.x 
+16:43:43.751 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
+16:43:44.067 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
+16:43:44.114 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 1 test outcomes using: net.thucydides.core.reports.json.JSONTestOutcomeReporter@1c3dc329
+16:43:44.116 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Seleccionar una fecha en el calendario:deberia seleccionar la fecha deseada
+16:43:44.117 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@1c3dc329: Generating report for test outcome: Seleccionar una fecha en el calendario:deberia seleccionar la fecha deseada
+16:43:44.129 [pool-1-thread-1] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for deberia seleccionar la fecha deseada to file C:\Repo\para-orlando\target\site\serenity\9f2cdf0a09267ad8f2e9dc2561d5c63c67ddfd63bb87529a86d981c6e982328c.json (using temp file C:\Repo\para-orlando\target\site\serenity\9f2cdf0a09267ad8f2e9dc2561d5c63c67ddfd63bb87529a86d981c6e982328c.json387ea9ce-0d96-4bca-a9ab-45bfd195c537)
+16:43:44.213 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Seleccionar una fecha en el calendario:deberia seleccionar la fecha deseada done
+16:43:44.213 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
+16:43:44.213 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 99 ms
+16:43:44.214 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 1 test outcomes using: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@20e70418
+16:43:44.215 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Seleccionar una fecha en el calendario:deberia seleccionar la fecha deseada
+16:43:44.215 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@20e70418: Generating report for test outcome: Seleccionar una fecha en el calendario:deberia seleccionar la fecha deseada
+16:43:44.216 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATE TEST OUTCOME REPORT FOR deberia seleccionar la fecha deseada in 9f2cdf0a09267ad8f2e9dc2561d5c63c67ddfd63bb87529a86d981c6e982328c
+16:43:44.282 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.6 class cucumber.runtime.model.FeatureLoader try Cucumber 4.2.0 
+16:43:44.283 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.0 class cucumber.runtime.model.FeatureLoader try Cucumber 2.x.x 
+16:43:44.287 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.RequirementsTagProvider -  found:[Requirement{name='Vivaair', type='capability' parent = 'null', cardNumber='null'}]
+16:43:44.299 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome deberia seleccionar la fecha deseada-[]: Optional[Requirement{name='Seleccionar una fecha en el calendario', type='feature' parent = 'Vivaair', cardNumber='null'}]
+16:43:44.302 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome deberia seleccionar la fecha deseada-[]: Optional[Requirement{name='Seleccionar una fecha en el calendario', type='feature' parent = 'Vivaair', cardNumber='null'}]
+16:43:44.554 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome deberia seleccionar la fecha deseada-[]: Optional[Requirement{name='Seleccionar una fecha en el calendario', type='feature' parent = 'Vivaair', cardNumber='null'}]
+16:43:44.558 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome deberia seleccionar la fecha deseada-[]: Optional[Requirement{name='Seleccionar una fecha en el calendario', type='feature' parent = 'Vivaair', cardNumber='null'}]
+16:43:44.712 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in 9f2cdf0a09267ad8f2e9dc2561d5c63c67ddfd63bb87529a86d981c6e982328c_screenshots.html
+16:43:45.396 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report 9f2cdf0a09267ad8f2e9dc2561d5c63c67ddfd63bb87529a86d981c6e982328c_screenshots.html in 684 ms
+16:43:45.399 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Seleccionar una fecha en el calendario:deberia seleccionar la fecha deseada in 9f2cdf0a09267ad8f2e9dc2561d5c63c67ddfd63bb87529a86d981c6e982328c.html in directory C:\Repo\para-orlando\target\site\serenity  
+16:43:45.407 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in 9f2cdf0a09267ad8f2e9dc2561d5c63c67ddfd63bb87529a86d981c6e982328c.html
+16:43:45.631 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report 9f2cdf0a09267ad8f2e9dc2561d5c63c67ddfd63bb87529a86d981c6e982328c.html in 224 ms
+16:43:45.631 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Seleccionar una fecha en el calendario:deberia seleccionar la fecha deseada done
+16:43:45.631 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
+16:43:45.632 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 1418 ms
+16:43:46.077 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Closing darkroom
+16:43:46.078 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Darkroom processing line shutting down
 
 ?[31mFailed scenarios:?[0m
 ?[31msrc/test/resources/features/vivaair/seleccionar_fecha.feature:8 ?[0m# deberia seleccionar la fecha deseada
 
 1 Scenarios (?[31m1 failed?[0m)
 4 Steps (?[31m1 failed?[0m, ?[36m1 skipped?[0m, ?[32m2 passed?[0m)
-0m33,200s
+0m47,741s
 
-java.lang.NullPointerException
-	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:329)
-	at net.serenitybdd.core.pages.WebElementFacadeImpl.elementIsPresent(WebElementFacadeImpl.java:969)
-	at net.serenitybdd.core.pages.WebElementFacadeImpl.isPresent(WebElementFacadeImpl.java:985)
-	at net.serenitybdd.core.pages.WebElementExpectations$2.apply(WebElementExpectations.java:43)
-	at net.serenitybdd.core.pages.WebElementExpectations$2.apply(WebElementExpectations.java:35)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilPresent(WebElementFacadeImpl.java:1031)
-	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+net.thucydides.core.webdriver.exceptions.ElementShouldBePresentException: Expected condition failed: waiting for WebdriveruniversityPage.datePickerDays to be present (tried for 6 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: '22LAP5CD1195R94', ip: '192.168.0.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: driver.version: unknown
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.throwShouldBePresentErrorWithCauseIfPresent(WebElementFacadeImpl.java:1061)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilPresent(WebElementFacadeImpl.java:1034)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at net.thucydides.core.annotations.locators.AbstractSingleItemHandler.invoke(AbstractSingleItemHandler.java:45)
 	at com.sun.proxy.$Proxy28.waitUntilPresent(Unknown Source)
-	at com.indra.actions.WebdriveruniversityActions.seleccionarFecha(WebdriveruniversityActions.java:39)
+	at com.indra.actions.WebdriveruniversityActions.seleccionarMesyDiaDelCalendario(WebdriveruniversityActions.java:81)
+	at com.indra.actions.WebdriveruniversityActions.seleccionarFechaEnElCalendario(WebdriveruniversityActions.java:24)
 	at com.indra.steps_definitions.WebdriveruniversityStep.ingresaLaFecha(WebdriveruniversityStep.java:34)
 	at ?.ingresa la fecha(src/test/resources/features/vivaair/seleccionar_fecha.feature:11)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for WebdriveruniversityPage.datePickerDays to be present (tried for 6 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: '22LAP5CD1195R94', ip: '192.168.0.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilPresent(WebElementFacadeImpl.java:1031)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.thucydides.core.annotations.locators.AbstractSingleItemHandler.invoke(AbstractSingleItemHandler.java:45)
+	at com.sun.proxy.$Proxy28.waitUntilPresent(Unknown Source)
+	at com.indra.actions.WebdriveruniversityActions.seleccionarMesyDiaDelCalendario(WebdriveruniversityActions.java:81)
+	at com.indra.actions.WebdriveruniversityActions.seleccionarFechaEnElCalendario(WebdriveruniversityActions.java:24)
+	at com.indra.steps_definitions.WebdriveruniversityStep.ingresaLaFecha(WebdriveruniversityStep.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:31)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:25)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:37)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:40)
+	at cucumber.api.TestStep.executeStep(TestStep.java:102)
+	at cucumber.api.TestStep.run(TestStep.java:83)
+	at cucumber.api.TestCase.run(TestCase.java:58)
+	at cucumber.runner.Runner.runPickle(Runner.java:80)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:118)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:56)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:127)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:121)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.lang.Thread.run(Thread.java:748)
 
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>

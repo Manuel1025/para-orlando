@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Seleccionar una fecha en el calendario" tests="1" skipped="0" failures="1" errors="0" timestamp="2021-12-27T19:57:24" hostname="22LAP5CD1346NJJ" time="32.956">
+  <properties/>
+  <testcase name="deberia seleccionar la fecha deseada" classname="Seleccionar una fecha en el calendario" time="32.956">
+    <failure message="java.lang.NullPointerException" type="java.lang.NullPointerException">java.lang.NullPointerException
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:329)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.elementIsPresent(WebElementFacadeImpl.java:969)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.isPresent(WebElementFacadeImpl.java:985)
+	at net.serenitybdd.core.pages.WebElementExpectations$2.apply(WebElementExpectations.java:43)
+	at net.serenitybdd.core.pages.WebElementExpectations$2.apply(WebElementExpectations.java:35)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilPresent(WebElementFacadeImpl.java:1031)
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.thucydides.core.annotations.locators.AbstractSingleItemHandler.invoke(AbstractSingleItemHandler.java:45)
+	at com.sun.proxy.$Proxy28.waitUntilPresent(Unknown Source)
+	at com.indra.actions.WebdriveruniversityActions.seleccionarFecha(WebdriveruniversityActions.java:39)
+	at com.indra.steps_definitions.WebdriveruniversityStep.ingresaLaFecha(WebdriveruniversityStep.java:34)
+	at ✽.ingresa la fecha(src/test/resources/features/vivaair/seleccionar_fecha.feature:11)
+</failure>
+  </testcase>
+  <system-out><![CDATA[14:57:24.767 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+14:57:24.767 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, acceptSslCerts: true, browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, incognito: true, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+14:57:30.645 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Opening darkroom
+14:57:30.645 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Darkroom processing line starting up
+14:57:30.811 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for D:\BACKUP RETO VIVA AIR\MANUEL RETO VIVA\target\site\serenity\d15fb3b2bc400e3ce1d4d42b2519ae2515addeaea96c6b64d3706534489f5182.png
+14:57:31.336 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for D:\BACKUP RETO VIVA AIR\MANUEL RETO VIVA\target\site\serenity\9cdb8d3e57db885d3af2c629347c356a50bc18938dd70d816229198e53d8429d.png
+++++++++++++++++++++anio del calendario +++++++++++++++++++++++++++2021
+aÃ±o es 2045dia es 14mes es May
+14:57:56.999 [Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - ?[91m
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: deberia seleccionar la fecha deseada
+---------------------------------------------------------------------?[0m
+14:57:57.002 [Test worker] DEBUG net.thucydides.core.steps.ConsoleLoggingListener - RELATED ISSUES: 
+14:57:57.080 [Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - ?[91mTEST FAILED AT STEP And ingresa la fecha | anio | dia | mes | | 2045 | 14 | May |?[0m
+14:57:57.080 [Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+]]></system-out>
+  <system-err><![CDATA[dic 27, 2021 2:57:24 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 40668
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+dic 27, 2021 2:57:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+]]></system-err>
+</testsuite>
